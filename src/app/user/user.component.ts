@@ -9,10 +9,9 @@ export class UserComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-    localStorage.removeItem("journey");
-    localStorage.removeItem("route");
-    localStorage.removeItem("user")
+  ngOnInit(): void {
   }
+
+
 
 }
